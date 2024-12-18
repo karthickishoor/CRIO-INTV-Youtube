@@ -14,4 +14,12 @@ public class Wrappers {
     /*
      * Write your selenium wrappers here
      */
+    public static void abouttab(WebElement e){
+        e.click();
+    }
+
+    public static void tab(WebElement e){
+        e.click();
+    }
+    
 }
